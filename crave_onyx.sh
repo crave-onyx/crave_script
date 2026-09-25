@@ -1,6 +1,7 @@
 
-repo init --depth=1 -u https://github.com/VoltageOS/manifest.git -b 16.2 --git-lfs
+repo init --depth=1 -u https://github.com/VoltageOS/manifest.git -b 17 --git-lfs
 /opt/crave/resync.sh
+repo sync -c --no-clone-bundle --force-remove-dirty --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
 
 git clone https://github.com/onyx-voltage/android_device_xiaomi_onyx.git -b bliss-1 device/xiaomi/onyx
 git clone https://gitlab.com/onyx-vendor/proprietary_vendor_xiaomi_onyx.git -b lineage-23-1 vendor/xiaomi/onyx
