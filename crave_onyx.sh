@@ -10,5 +10,5 @@ git clone https://github.com/BlissRoms-Devices/android_hardware_xiaomi.git -b on
 git clone https://github.com/poco-f7-onyx/packages_apps_GameBar.git -b lineage-23-1 packages/apps/GameBar
 git clone https://github.com/poco-f7-onyx/packages_apps_LunarisDolby.git -b 16-1 packages/apps/LunarisDolby
 . build/envsetup.sh
-brunch oηyx
+bunch oｎyx
 # m precompiled_sepolicy -j$(nproc)
